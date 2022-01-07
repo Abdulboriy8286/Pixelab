@@ -1,0 +1,257 @@
+.section-1 {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: none;
+      -ms-flex-pack: none;
+          justify-content: none;
+  -webkit-box-align: none;
+      -ms-flex-align: none;
+          align-items: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  padding: 30px 120px;
+  overflow: hidden;
+}
+
+.section-1 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: none;
+      -ms-flex-pack: none;
+          justify-content: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: none;
+  height: 100px;
+}
+
+.section-1 header .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: none;
+      -ms-flex-pack: none;
+          justify-content: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 30px;
+  margin-left: 110px;
+  margin-right: 200px;
+}
+
+.section-1 header .links a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.section-1 header .links a:hover {
+  position: relative;
+  top: -10px;
+  color: gray;
+}
+
+.section-1 header .login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: none;
+      -ms-flex-pack: none;
+          justify-content: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 30px;
+}
+
+.section-1 header .login a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.section-1 header .login a:hover {
+  position: relative;
+  top: -10px;
+  color: gray;
+}
+
+.section-1 header .login .btn {
+  background-color: #FF6600;
+  width: 120px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+  color: white;
+}
+
+.section-1 header .login .btn:hover {
+  position: relative;
+  top: -10px;
+  color: white;
+}
+
+.section-1 main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: none;
+      -ms-flex-pack: none;
+          justify-content: none;
+  -webkit-box-align: none;
+      -ms-flex-align: none;
+          align-items: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: none;
+  margin-top: 70px;
+  height: calc(100vh - 100px);
+}
+
+.section-1 main .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: none;
+      -ms-flex-pack: none;
+          justify-content: none;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 50px;
+  width: 700px;
+  margin-top: 30px;
+}
+
+.section-1 main .left h1 {
+  font-size: 40px;
+}
+
+.section-1 main .left .btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-1 main .left .btns .btn {
+  background-color: #FF6600;
+  width: 120px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.section-1 main .left .btns .btn:hover {
+  position: relative;
+  top: -10px;
+  color: white;
+}
+
+.section-1 main .left .btns .btn-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.section-1 main .left .btns .btn-2:hover {
+  position: relative;
+  top: -10px;
+}
+
+.section-1 main .right .user {
+  position: relative;
+  right: -200px;
+  z-index: 1;
+  width: 500px;
+  height: 500px;
+}
+
+.section-1 main .right .grp-1 {
+  position: relative;
+  top: -400px;
+  right: -150px;
+  width: 275px;
+  z-index: 1;
+}
+
+.section-1 main .right .grp-2 {
+  position: relative;
+  top: -210px;
+  right: 170px;
+  width: 230px;
+}
+
+.section-1 main .right .frame {
+  position: relative;
+  top: -550px;
+  right: -80px;
+  width: 250px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
